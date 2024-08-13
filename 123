@@ -1,0 +1,18 @@
+from IPython.display import HTML
+
+# Creating a simple HTML page with "好" and "不好" options
+html_content = """
+<html>
+<head>
+    <title>选择</title>
+</head>
+<body>
+    <h1>请选择：</h1>
+    <button onclick="alert('您选择了“好”')">好</button>
+    <button onclick="alert('您选择了“不好”')">不好</button>
+</body>
+</html>
+"""
+
+# Displaying the HTML content as an interactive website
+HTML(html_content)
